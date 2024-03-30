@@ -17,7 +17,7 @@ class BudgetFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->sentence(9)
+            'title' => fake()->sentence(9)
         ];
     }
 }
